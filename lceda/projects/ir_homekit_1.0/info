@@ -1,0 +1,106 @@
+{
+  "uuid": "dbbaa130a8288d79c340920ab91ce0f1",
+  "path": "Offline/ir_homekit_1.0",
+  "name": "ir_homekit_1.0",
+  "content": "first version",
+  "created_at": "2022-09-18 15:37:13",
+  "updated_at": "2022-09-18 17:45:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a51c5cbcae4fc9f2f3c25e7ed1c66bcd",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5a9ec2085ad6436d86701332d4451b76": 2,
+        "a7291ceaee5442a999df26c55c7e675d": 5,
+        "3ec77201bbcd4ecd8722658d581a4e60": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-F-2.54_1x15",
+          2,
+          "HDR-F-2.54_1X15",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C124408",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "bce4bcfcccfb42a296f7a392ab0b7199",
+            "uuid": "5a9ec2085ad6436d86701332d4451b76"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          5,
+          "HDR-F-2.54_1X3",
+          "IR-RX,PAIR1-1,PAIR2-1,PAIR3-1,PAIR4-1",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x2",
+          4,
+          "HDR-F-2.54_1X2",
+          "PAIR1-2,PAIR2-2,PAIR3-2,PAIR4-2",
+          {
+            "BOM_Supplier Part": "C49661",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "36b1306a115341f4b4d9407fb34974e0",
+            "uuid": "3ec77201bbcd4ecd8722658d581a4e60"
+          }
+        ]
+      ],
+      "updateTime": 1663494313,
+      "createTime": 1663486633,
+      "histories": [],
+      "created_at": "2022-09-18 15:37:13",
+      "updated_at": "2022-09-18 17:45:13"
+    },
+    {
+      "uuid": "fa1223e48bf023731a9af90dfd9293d1",
+      "puuid": "dbbaa130a8288d79c340920ab91ce0f1",
+      "title": "PCB_ir_homekit_1.0",
+      "filename": "PCB_ir_homekit_1.0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "bce4bcfcccfb42a296f7a392ab0b7199": 2,
+        "f83673d09e13450d934ca6be4be5af8f": 5,
+        "36b1306a115341f4b4d9407fb34974e0": 4
+      },
+      "BOM": [],
+      "updateTime": 1663494285,
+      "createTime": 1663491212,
+      "histories": [],
+      "created_at": "2022-09-18 16:53:32",
+      "updated_at": "2022-09-18 17:44:45"
+    }
+  ],
+  "sort": [],
+  "title": "ir_homekit_1.0",
+  "foldername": "ir_homekit_1.0",
+  "schfilename": "ir_homekit_1.0.json",
+  "schfilemtime": 1663494313487
+}
