@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=Oj97EwuoFbs
+https://github.com/Mixiaoxiao/ESP8266-IR-HOMEKIT
+
+1.使用 tasmotizer-1.2.exe 下载固件 ESP8266_IR_20200815_4M.bin (https://github.com/Mixiaoxiao/ESP8266-IR-HOMEKIT/tree/master/firmware)
+2.连接到一个 esp*** 的WiFi
+3.进入 192.168.4.1 more>>wifi config>>发送WiFi信息 等待成功连接WiFi（灯不闪烁）
+4.进入 192.168.31.*** 
+5.协议选“15.coolix”，子型号“default”
+6.homekit扫描添加设备，输入8个1，可以成功添加
+
+硬件：
+nodemcu(esp8266)
+s8050:https://item.taobao.com/item.htm?spm=a1z09.2.0.0.643b2e8dorkN5M&id=522575410787&_u=ifhkh5k2b70
+红外发射头：https://item.taobao.com/item.htm?spm=a1z09.2.0.0.643b2e8dorkN5M&id=522572541770&_u=ifhkh5kee67
+
+电路连接：
+参考 S8050-datasheet.pdf 
+3.3v >> 1
+2 >> D5
+3 >> 红外发射正
+红外发射负 >> GND
